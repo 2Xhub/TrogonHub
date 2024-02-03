@@ -5324,7 +5324,7 @@ end)
 		end
 		)
 	end 
-      DiscordLib:Notification("Thông Báo" , "Bật Xong Sẽ Bị Đứng Máy 5-10 Giây" , 10 ,11816162894 )
+      DiscordLib:Notification("Thông Báo" , "Bật Xong Sẽ Bị Đứng Máy 5-10 Giây" , 10 ,16226433883 )
       wait(3)
          local decalsyeeted = true
 		local g = game
@@ -5534,7 +5534,7 @@ Main:Seperator("Select Item Farm")
 local WeaponList = {"Melee","Sword","Fruit"}
 _G.Select_Weapon = "Melee"
 local SelectWeapona = Main:Dropdown("Chọn Item Farm",WeaponList,function(value)
- _G.Select_Weapon = value
+ _G.Select_Weapon = Melee
  end)
 
 task.spawn(function()
