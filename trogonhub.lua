@@ -89,7 +89,7 @@ end)
 
 	--// Fast Attack
 	local AttackList = {"Slow", "Normal", "Pro"}
-	_G.FastAttackDelay = "Normal"
+	_G.FastAttackDelay = "Pro"
 	AttackList = true
 	spawn(function()
 	    while wait(.1) do
@@ -239,7 +239,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
-ImageButton.Image = "rbxassetid://13717478897"
+ImageButton.Image = "rbxassetid://16226433883"
 
 UICorner.CornerRadius = UDim.new(0, 30)
 UICorner.Parent = ImageButton
@@ -551,8 +551,8 @@ local NotiFrame = Instance.new("Frame")
 		end
 		)
 	end 
-	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê IB" , 6 ,13717478897 )
-	DiscordLib:Notification("Thông Báo" , "Link Dicord Ở Phần Setting" , 6 ,11816162894 )
+	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê IB" , 6 ,16226433883 )
+	DiscordLib:Notification("Thông Báo" , "Link Dicord Ở Phần Setting" , 6 ,16226433883 )
  local UserInputService = game:GetService("UserInputService")
  local TweenService = game:GetService("TweenService")
  
@@ -4796,7 +4796,7 @@ Setting:Line()
 Setting:Button("Sao Chép Link Dicord",function()
  
  setclipboard("hhttps://discord.com/invite/r7myh9yB")
-  DiscordLib:Notification("Thông Báo" , "Đã Sao Chép Link Dicord" , 10 ,13717478897 )
+  DiscordLib:Notification("Thông Báo" , "Đã Sao Chép Link Dicord" , 10 ,16226433883 )
  end)
 
 Setting:Seperator(" Setting ")
@@ -13938,7 +13938,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.787, 0,-0.03, 0)
 TextLabel.Size = UDim2.new(0.258796811, 0, 0.0200803205, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Master Hub"
+TextLabel.Text = "TroGon Hub"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 29.000
 TextLabel.TextTransparency = 0.030
