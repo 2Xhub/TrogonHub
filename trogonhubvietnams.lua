@@ -4432,7 +4432,7 @@ end
     Main:AddSeperator("Setting")
     
 
-Main:AddToggle("Di Chuyển = Reset",false,function(Fast)
+Main:AddToggle("Bypass Tp",true,function(Fast)
 BypassTP = Fast
 end)
 
@@ -4474,7 +4474,7 @@ Main:AddToggle("Đánh Nhanh",true,function(Mag)
             end)
             
       
-            _G.FastAttackDelay = 0.15
+            _G.FastAttackDelay = 0.1
          
             function GetBladeHit()
                 local CombatFrameworkLib = debug.getupvalues(require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework))
@@ -4567,7 +4567,7 @@ Main:AddToggle("Gom Quái",true,function(Mag)
         end
     end)
 
-_G.BringMode = 350
+_G.BringMode = 300
 
 
     
@@ -4590,7 +4590,7 @@ end)
 
 
     
-Main:AddToggle("Tự Động Click",false,function(value)
+Main:AddToggle("Tự Động Click",true,function(value)
 _G.AutoClick = value
 end)
 
