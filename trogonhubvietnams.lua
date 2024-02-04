@@ -4436,7 +4436,7 @@ Main:AddToggle("Bypass Tp",true,function(Fast)
 BypassTP = Fast
 end)
 
-Main:AddToggle("Đánh Nhanh",true,function(Mag)
+Main:AddToggle("Fast Attack",true,function(Mag)
     _G.FastAttack = Mag
             end)
 
@@ -4531,7 +4531,7 @@ Main:AddToggle("Đánh Nhanh",true,function(Mag)
                 end
             end)
 
-Main:AddToggle("Gom Quái",true,function(Mag)
+Main:AddToggle("BringMob",true,function(Mag)
     _G.BringMonster = Mag
     end)
     spawn(function()
@@ -4571,7 +4571,7 @@ _G.BringMode = 300
 
 
     
-Main:AddToggle("Bật Haki",true,function(value)
+Main:AddToggle("Aotu Buso",true,function(value)
 _G.AUTOHAKI = value
 end)
 spawn(function()
@@ -4590,7 +4590,7 @@ end)
 
 
     
-Main:AddToggle("Tự Động Click",true,function(value)
+Main:AddToggle("Aotu Click",false,function(value)
 _G.AutoClick = value
 end)
 
