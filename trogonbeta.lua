@@ -3672,7 +3672,7 @@ SOMEXHUBMODILE.Name = "SOMEXHUBMODILE"
         MODILEMAGE.BorderSizePixel = 0
         MODILEMAGE.Position = UDim2.new(0, 3, 0, 2)
         MODILEMAGE.Size = UDim2.new(0, 45, 0, 45)
-        MODILEMAGE.Image = "http://www.roblox.com/asset/?id=16226433883"
+        MODILEMAGE.Image = "http://www.roblox.com/asset/?id=16235463976"
 
 do local GUI = game.CoreGui:FindFirstChild("SOMEXHUB");if GUI then GUI:Destroy();end;if _G.Color == nil then
        _G.Color = Color3.fromRGB(50,255,255)
@@ -3865,7 +3865,7 @@ local LogoHub = Instance.new("ImageLabel")
 	LogoHub.BackgroundTransparency = 1.000
 	LogoHub.Position = UDim2.new(0, 0, 0, 1)
 	LogoHub.Size = UDim2.new(0, 150, 0, 150)
-	LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(16226433883)
+	LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(16235463976)
 
 	local ScrollTab = Instance.new("ScrollingFrame")
 	ScrollTab.Name = "ScrollTab"
