@@ -4436,7 +4436,7 @@ Main:AddToggle("Bypass Tp",true,function(Fast)
 BypassTP = Fast
 end)
 
-Main:AddToggle("Fast Attack",true,function(Mag)
+Main:AddToggle("Fast Attack [ Beta ]",true,function(Mag)
     _G.FastAttack = Mag
             end)
 
@@ -4531,7 +4531,7 @@ Main:AddToggle("Fast Attack",true,function(Mag)
                 end
             end)
 
-Main:AddToggle("BringMob",true,function(Mag)
+Main:AddToggle("BringMob [ Test ]",true,function(Mag)
     _G.BringMonster = Mag
     end)
     spawn(function()
